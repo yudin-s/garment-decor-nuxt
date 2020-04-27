@@ -42,15 +42,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '@plugins/vue-see-on-github', mode: 'client'},
-    { src: '@plugins/owl.carousel.min.js', mode: 'client'},
-    { src: '@plugins/jquery.spincrement.min.js', mode: 'client'},
-    { src: '@plugins/jquery.featureCarousel.js', mode: 'client'},
-    { src: '@plugins/select2.min.js', mode: 'client'},
-    { src: '@plugins/nouislider.min.js', mode: 'client'},
-    { src: '@plugins/jquery.magnific-popup.min.js', mode: 'client'},
-    { src: '@plugins/main.js', mode: 'client'},
-
+    { src: '@plugins/vue-see-on-github', mode: 'client', ssr: false},
   ],
   /*
   ** Nuxt.js dev-modules
