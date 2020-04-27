@@ -1,19 +1,15 @@
-[![Build Status](https://travis-ci.com/yudin-s/nuxt-ghpages-boilerplate.svg?branch=master)](https://travis-ci.com/yudin-s/nuxt-ghpages-boilerplate)
-> Nuxt.js Boilerplate for GitHub Pages with TravisCI support
+[![Build Status](https://travis-ci.com/yudin-s/garment-decor-nuxt.svg?branch=master)](https://travis-ci.com/yudin-s/garment-decor-nuxt)
 
-This boilerplate contain all required files for publish your projects to GitHub Pages much faster.
+[See on GitHub Pages](https://yudin-s.github.io/garment-decor-nuxt/)
 
-Just fork this repository, put components, assets, layouts, pages and middleware from exist project and have fun!
 
-## FAQ 
+Nuxt.JS + PUG Portfolio project based on redesign GarmentDecor company website. 
 
-How to obtain github token & configure TravisCI for public repos? 
+**Important Note** By security and confidential reason only one page has being published. Without any business logic. 
 
-> https://docs.travis-ci.com/user/deployment/pages/
+Frontend based on PUG + GULP + SCSS you can take a look here: [Github Repo](https://github.com/yudin-s/garment_decor)
 
-How solution is working? 
 
-> https://nuxtjs.org/faq/github-pages/
 
 ## Build on Local Machine
 
@@ -31,3 +27,9 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
+
+
+[Github Repo]: https://github.com/yudin-s/garment_decor
+
+
+[]: https://yudin-s.github.io/garment-decor-nuxt/
