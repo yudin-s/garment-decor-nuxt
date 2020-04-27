@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-ghpages-boilerplate",
+  "name": "garment-decor-nuxt",
   "version": "1.0.0",
-  "description": "Nuxt.js Boilerplate for GitHub Pages with TravisCI support",
+  "description": "Nuxt.js Portfolio project Sergei Iudin",
   "author": "Sergei Iudin",
   "private": true,
   "scripts": {
@@ -14,12 +14,16 @@
     "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0"
+    "jquery": "^3.5.0",
+    "nuxt": "^2.0.0",
+    "see-on-github-vue": "^1.0.3"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
+    "pug": "^2.0.4",
+    "pug-plain-loader": "^1.0.0",
     "vue-jest": "^4.0.0-0"
   }
 }
