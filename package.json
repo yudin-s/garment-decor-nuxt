@@ -14,12 +14,12 @@
     "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "dependencies": {
-    "jquery": "^3.5.0",
+    "jquery": "^3.5.1",
     "nuxt": "^2.0.0",
-    "see-on-github-vue": "^1.0.3"
+    "see-on-github-vue": "^1.0.7"
   },
   "devDependencies": {
-    "@vue/test-utils": "^1.0.0-beta.27",
+    "@vue/test-utils": "^1.0.0",
     "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
     "pug": "^2.0.4",

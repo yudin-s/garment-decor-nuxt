@@ -42,7 +42,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '@plugins/vue-see-on-github', mode: 'client', ssr: false},
+    { src: '@plugins/vue-see-on-github', mode: 'client'},
   ],
   /*
   ** Nuxt.js dev-modules

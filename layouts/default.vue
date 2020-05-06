@@ -8,7 +8,7 @@
 </template>
 <script>
   import MainHeader from "@/components/Layout/MainHeader";
-  import MainFooter from "../components/Layout/MainFooter";
+  import MainFooter from "@/components/Layout/MainFooter";
   export default {
     components: {MainFooter, MainHeader}
   }
