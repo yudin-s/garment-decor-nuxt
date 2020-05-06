@@ -1,6 +1,6 @@
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
-    base: '/garment_decor-nuxt/'
+    base: '/garment-decor-nuxt/'
   }
 } : {}
 
@@ -53,7 +53,21 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/style-resources',
   ],
+  'google-gtag':{
+    id: 'UA-165421608-1',
+
+    config:{
+      anonymize_ip: false, // anonymize IP
+      send_page_view: false, // might be necessary to avoid duplicated page track on page reload
+      linker:{
+        domains:['yudin-s.github.io']
+      }
+    },
+    debug: false, // enable to track in dev mode
+    disableAutoPageTrack: false,
+  },
   /*
   ** Build configuration
   */
