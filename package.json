@@ -16,7 +16,7 @@
   "dependencies": {
     "jquery": "^3.5.1",
     "nuxt": "^2.0.0",
-    "see-on-github-vue": "^1.0.7"
+    "see-on-github-vue": "^1.0.8"
   },
   "devDependencies": {
     "@vue/test-utils": "^1.0.0",

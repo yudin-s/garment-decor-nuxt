@@ -1,6 +1,6 @@
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
-    base: '/garment-decor-nuxt/'
+    base: '/garment_decor-nuxt/'
   }
 } : {}
 
